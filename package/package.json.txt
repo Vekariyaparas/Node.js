@@ -1,0 +1,26 @@
+Waht is package.json ?
+    Metadata: Basic information about the project, such as:
+        name: The name of the project.
+        version: The current version of the project.
+        description: A brief description of what the project does.
+        author: The author or maintainer of the project.
+        license: The license under which the project is distributed (e.g., MIT, ISC).
+
+    Scripts: Defines custom commands that can be run with npm run <script-name>. Common scripts include:
+        start: Command to start the application.
+        test: Command to run tests.
+        build: Command to build the project (common in front-end projects).
+
+    Dependencies: Lists all the packages required for the project to run, split into:
+        dependencies: Packages needed in production, which the app relies on at runtime.
+        devDependencies: Packages needed only in development (e.g., testing libraries, linters, etc.).
+
+    Engines: Specifies the versions of Node.js and npm required for the project, which helps maintain compatibility.
+
+    Keywords: Array of keywords that describe the project, useful for searchability.
+
+    Other Fields: You can also add fields specific to some tools or package managers, like config for environment-specific variables, or fields specific to bundlers and linters.
+
+
+Is Node.js single-threaded or multi-threaded ?
+    Node.js is primarily single-threaded.
