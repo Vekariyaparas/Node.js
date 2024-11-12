@@ -1,0 +1,19 @@
+What is package.json ?
+    Project Metadata:
+        It contains information about the project, such as its name, version, description, main entry file, and author. This metadata helps identify the project and is useful when publishing the project as an npm package.
+
+    Dependency Management: 
+        It lists all the dependencies and devDependencies required for the project. These are libraries and tools the project needs to function or develop. Each dependency is specified with a name and a version range, and it allows others to install all necessary packages with a single npm install command.
+
+    Scripts: 
+        The scripts section defines command-line scripts to automate tasks, like starting the server, testing, linting, or building the project. For example, you might have a script for start, test, or build, which can be run using npm run <script-name>.
+
+    Engine and Compatibility Information: 
+        It can specify compatible Node.js versions or other environments, ensuring that users have the correct environment to run the project.
+
+    Version Control: 
+        For projects published on npm, package.json helps track versions of the package, which is essential for version management and dependency tracking.
+
+    Configuration for Tools: 
+        Some tools use package.json for configuration, like Babel, ESLint, or Jest. Rather than creating a separate configuration file, you can often configure these tools directly within package.json.
+
